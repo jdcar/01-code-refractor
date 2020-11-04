@@ -14,18 +14,18 @@
     <div id="wrapper">
         <!-- Changed the div to the semantic tag: nav -->
         <nav class="header">
-            <!-- <h1>Hori<span class="seo">seo</span>n</h1> -->
+            <!-- change seo to an id -->
             <h1>Hori<span id="seo">seo</span>n</h1>
             <div id="menu">
                 <div id="unorder-list">
                     <ul>
-                        <li>
+                        <li class = "list">
                             <a href="#search-engine-optimization">Search Engine Optimization</a>
                         </li>
-                        <li>
+                        <li class = "list">
                             <a href="#online-reputation-management">Online Reputation Management</a>
                         </li>
-                        <li>
+                        <li class = "list">
                             <a href="#social-media-marketing">Social Media Marketing</a>
                         </li>
                 </div>
@@ -36,7 +36,8 @@
         <div class="hero"></div>
         <div class="content">
             <!-- changed the div to the semantic tag section -->
-            <section id="search-engine-optimization" class="search-engine-optimization">
+            <!-- Create class "blocks" -->
+            <section id="search-engine-optimization" class="blocks">
                 <!-- added alt text to all images -->
                 <img src="./assets/images/search-engine-optimization.jpg" alt="Search engine optimization"
                     class="float-left" />
@@ -51,7 +52,7 @@
                 </p>
 
             </section>
-            <section id="online-reputation-management" class="online-reputation-management">
+            <section id="online-reputation-management" class="blocks">
                 <img src="./assets/images/online-reputation-management.jpg" alt="Online reputation managment"
                     class="float-right" />
                 <h2>Online Reputation Management</h2>
@@ -62,7 +63,7 @@
                     gives you the control over what potential customers see when they search for your business.
                 </p>
             </section>
-            <section id="social-media-marketing" class="social-media-marketing">
+            <section id="social-media-marketing" class="blocks">
                 <img src="./assets/images/social-media-marketing.jpg" alt="Social media marketing" class="float-left" />
                 <h2>Social Media Marketing</h2>
                 <p>
@@ -76,26 +77,26 @@
         </div>
         <!-- Changed the div to the semantic tag aside -->
         <aside class="benefits">
-            <section class="benefit-lead">
+            <section class="sidebar">
                 <h3>Lead Generation</h3>
-                <img src="./assets/images/lead-generation.png" alt="Lead generation" />
+                <img class = "icon" src="./assets/images/lead-generation.png" alt="Lead generation" />
                 <p>
                     Inbound strategies for lead generation require less work for your business, bringing customers
                     directly to your website.
                 </p>
             </section>
-            <section class="benefit-brand">
+            <section class="sidebar">
                 <h3>Brand Awareness</h3>
-                <img src="./assets/images/brand-awareness.png" alt="Brand awareness" />
+                <img class = "icon" src="./assets/images/brand-awareness.png" alt="Brand awareness" />
                 <p>
                     Users find your business through paid and organic searches, increasing the search ranking and
                     visibility for your business.
                 </p>
             </section>
-            <section class="benefit-cost">
+            <section class="sidebar">
                 <h3>Cost Management</h3>
                 <!-- img is self closing so delete the </img> -->
-                <img src="./assets/images/cost-management.png" alt="Cost management" />
+                <img class = "icon" src="./assets/images/cost-management.png" alt="Cost management" />
                 <p>
                     As the search ranking for your business increases, your advertising costs decrease, and you no
                     longer need to advertise your page.
@@ -104,7 +105,7 @@
         </aside>
         <!-- Changed the div to the semantic tag footer -->
         <footer class="footer">
-            <h2>Made with ❤️️ by Horiseon</h2>
+            <h2 id ="signature">Made with ❤️️ by Horiseon</h2>
             <p>
                 &copy; 2019 Horiseon Social Solution Services, Inc.
             </p>

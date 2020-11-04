@@ -14,6 +14,7 @@ The following changes were made to the code:
 6. Rename divs with semantic tags
 7. Add alt text to imgs
 8. Cleaned up the css tags
+9. Created ids and classes so css can be grouped
 
 
 ## Contributing
