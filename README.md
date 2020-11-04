@@ -1,6 +1,3 @@
-
-
-
 # Assignment 1: Code Refactor
 
 Jamie Carlstone
@@ -14,10 +11,11 @@ The following changes were made to the code:
 3. Fix the position of the header so it is relative to the next block
 4. Add the wrapper so the items don't move when the window is resized
 5. Consolidated css tags that repeated formatting
+6. Rename divs with semantic tags
+7. Add alt text to imgs
+8. Cleaned up the css tags
 
 
 ## Contributing
 Pull requests are welcome. 
 README template from https://www.makeareadme.com/ 
-
-
