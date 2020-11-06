@@ -24,7 +24,7 @@ Week 1. November 7, 2020
 - social-media-marketing.jpg
 
 ### Changes:
-The following changes were made to the code:
+Summary of changes made to the code:
 1. Change the title so the tab says the company name
 2. Change the padding in the header so there is less empty space in the header
 3. Fix the position of the header so it is relative to the next block
