@@ -1,20 +1,20 @@
+/* Style for all tags */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;    
 }
-
-/* added wrapper */
+/* Style for body */
+    /* Added a wrapper  */
 #wrapper {
     margin-left:auto;
     margin-right:auto;
     width:1200px;
 }
-
 body {
     background-color: #d9dcd6;
 }
-
+/* Style for header */
     /* Changed padding from 20px to 10px */
      /* add width and position */
 .header {
@@ -26,18 +26,21 @@ body {
     position: relative; 
 }
 
-/* Removed the .header because it is redundant */
+/* Style for h1 branding */
+    /* Removed the .header because it is redundant */
 h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-/* Change seo to an id to simplify the css */
+/* Style the color of seo in h1 */
+    /* Change seo to an id to simplify the css */
 #seo {
     color: #d9dcd6;
 }
 
-/* Changed .header div to id = "menu" to clean up css tags*/
+/* Style the navigation menu */
+    /* Changed .header div to id = "menu" to clean up css tags*/
 #menu {
     padding-top: 15px;
     margin-right: 20px;
@@ -46,12 +49,13 @@ h1 {
     font-size: 20px;
     
 }
-/* changed .header div ul to id = "unorder-list" to clean up css tags */
+ 
+    /* changed .header div ul to id = "unorder-list" to clean up css tags */
 #unorder-list {
     list-style-type: none;
 }
 
-/* created a class for list */
+    /* created a class for list */
 .list {
     display: inline-block;
     margin-left: 25px;
@@ -62,10 +66,7 @@ a {
     text-decoration: none;
 }
 
-p {
-    font-size: 16px;
-}
-
+/* Style for the background photo */
 .hero {
     height: 800px;
     width: 100%;
@@ -73,6 +74,12 @@ p {
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
+}
+
+/* Style the main part of the page */
+    /* Moved this tag so it follows hero like it does in the html */
+p {
+    font-size: 16px;
 }
 
 /* Place max-height attribute into float classes */
