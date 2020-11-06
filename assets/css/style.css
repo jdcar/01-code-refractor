@@ -16,7 +16,7 @@ body {
     background-color: #d9dcd6;
 }
 
-    /* Added a wrapper */
+    /* Added a wrapper: https://css-tricks.com/best-way-implement-wrapper-css/ */
 #wrapper {
     margin-left:auto;
     margin-right:auto;
